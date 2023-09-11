@@ -24,10 +24,26 @@ body{
 
 .logo-link {
     background: none;
-    
+    transition: all .3s ease-in-out;
+    animation: logo-link 2s infinite;
     img{
         background: none;
         width: 258px;
+    }
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+@keyframes logo-link{
+    0%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
     }
 }
 
@@ -37,7 +53,6 @@ body{
     height: 100px;
     border: 16px solid #FFBF9E;
 }
-
 
 
 

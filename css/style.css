@@ -100,12 +100,49 @@ body {
 
 .logo-link {
   background: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-animation: logo-link 2s infinite;
+          animation: logo-link 2s infinite;
 }
 .logo-link img {
   background: none;
   width: 258px;
 }
+.logo-link:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
 
+@-webkit-keyframes logo-link {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes logo-link {
+  0% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
 .flazma-logo {
   border-radius: 50px;
   width: 330px;
