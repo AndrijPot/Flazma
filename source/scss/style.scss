@@ -1,0 +1,61 @@
+@import "nullstyle.scss";
+
+body{
+   overflow: hidden;
+}
+
+// Main
+
+
+
+.wrapper {
+    background: #F6ECE7;
+    height: 100vh;
+    padding: 30px 0 ;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.logo-link {
+    background: none;
+    
+    img{
+        background: none;
+        width: 258px;
+    }
+}
+
+.flazma-logo{
+    border-radius: 50px;
+    width: 330px;
+    height: 100px;
+    border: 16px solid #FFBF9E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "media.scss";

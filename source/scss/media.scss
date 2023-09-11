@@ -1,0 +1,22 @@
+@media (max-width: 500px){
+    .main{
+        
+        gap: 30px;
+    }
+    
+    .logo-link {
+        background: none;
+        
+        img{
+            background: none;
+            width: 158px;
+        }
+    }
+    
+    .flazma-logo{
+        border-radius: 50px;
+        width: 250px;
+        height: 80px;
+        border: 12px solid #FFBF9E;
+    }
+}
