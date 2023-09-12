@@ -90,7 +90,35 @@
     }
 }
 
+@media (max-width: 600px){
 
+.main{
+
+     gap: 50px;
+}
+
+.logo-brands{
+
+    gap: 80px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+
+}
+
+.logo-link {
+   
+    img{
+       
+        width: 220px;
+    }
+}
+}
 
 @media (max-width: 400px){
     .main{

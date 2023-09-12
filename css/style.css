@@ -229,6 +229,33 @@ body {
     gap: 400px;
   }
 }
+@media (max-width: 600px) {
+  .main {
+    gap: 50px;
+  }
+  .logo-brands {
+    gap: 80px;
+  }
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 40px;
+  }
+  .logo-link img {
+    width: 220px;
+  }
+}
 @media (max-width: 400px) {
   .main {
     gap: 60px;
