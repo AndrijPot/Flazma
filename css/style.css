@@ -78,7 +78,7 @@ body {
 .wrapper {
   background: #F6ECE7;
   height: 100vh;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .main {
@@ -95,52 +95,69 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 60px;
+  gap: 70px;
 }
 
 .logo-link {
   background: none;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  -webkit-animation: logo-link 2s infinite;
-          animation: logo-link 2s infinite;
+  -webkit-animation: logo-link 3s infinite;
+          animation: logo-link 3s infinite;
 }
 .logo-link img {
   background: none;
-  width: 258px;
+  width: 200px;
 }
 .logo-link:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
 
+.logo-brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 100px;
+}
+
 @-webkit-keyframes logo-link {
   0% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
   }
   50% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   100% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
   }
 }
 
 @keyframes logo-link {
   0% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
   }
   50% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   100% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
   }
 }
 .flazma-logo {
@@ -150,21 +167,83 @@ body {
   border: 16px solid #FFBF9E;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 1700px) {
   .main {
-    gap: 30px;
+    gap: 80px;
+  }
+  .logo-link img {
+    width: 288px;
+  }
+  .flazma-logo {
+    border-radius: 50px;
+    width: 430px;
+    height: 120px;
+    border: 16px solid #FFBF9E;
+  }
+}
+@media (min-width: 2500px) {
+  .wrapper {
+    padding: 100px 0;
+  }
+  .main {
+    gap: 250px;
+  }
+  .logo-link img {
+    width: 508px;
+  }
+  .flazma-logo {
+    border-radius: 50px;
+    width: 650px;
+    height: 200px;
+    border: 20px solid #FFBF9E;
+  }
+  .logo-brands {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 180px;
+  }
+}
+@media (min-width: 3500px) {
+  .wrapper {
+    padding: 200px 0;
+  }
+  .main {
+    gap: 450px;
+  }
+  .logo-link img {
+    width: 708px;
+  }
+  .flazma-logo {
+    border-radius: 50px;
+    width: 850px;
+    height: 250px;
+    border: 20px solid #FFBF9E;
+  }
+  .logo-brands {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .main {
+    gap: 60px;
   }
   .logo-link {
     background: none;
   }
   .logo-link img {
     background: none;
-    width: 158px;
+    width: 148px;
   }
   .flazma-logo {
     border-radius: 50px;
-    width: 250px;
-    height: 80px;
+    width: 230px;
+    height: 70px;
     border: 12px solid #FFBF9E;
   }
 }

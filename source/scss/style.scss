@@ -11,7 +11,7 @@ body{
 .wrapper {
     background: #F6ECE7;
     height: 100vh;
-    padding: 30px 0 ;
+    padding: 50px 0 ;
 }
 
 .main{
@@ -19,31 +19,39 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 70px;
 }
+
 
 .logo-link {
     background: none;
     transition: all .3s ease-in-out;
-    animation: logo-link 2s infinite;
+    animation: logo-link 3s infinite;
     img{
         background: none;
-        width: 258px;
+        width: 200px;
     }
     &:hover{
         transform: scale(1.05);
     }
 }
 
+.logo-brands{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
 @keyframes logo-link{
     0%{
-        transform: scale(1.1);
+        transform: scale(1.07);
     }
     50%{
         transform: scale(1);
     }
     100%{
-        transform: scale(1.1);
+        transform: scale(1.07);
     }
 }
 
@@ -52,6 +60,7 @@ body{
     width: 330px;
     height: 100px;
     border: 16px solid #FFBF9E;
+
 }
 
 
