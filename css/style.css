@@ -255,6 +255,9 @@ body {
   .logo-link img {
     width: 220px;
   }
+  .logo-link img {
+    width: 220px;
+  }
 }
 @media (max-width: 400px) {
   .main {

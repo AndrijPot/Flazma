@@ -90,26 +90,36 @@
     }
 }
 
-@media (max-width: 600px){
 
-.main{
+    @media (max-width: 600px){
 
-     gap: 50px;
-}
-
-.logo-brands{
-
-    gap: 80px;
-}
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-
-
-}
+        .main{
+        
+             gap: 50px;
+        }
+        
+        .logo-brands{
+        
+            gap: 80px;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        
+        
+        }
+        
+        .logo-link {
+           
+            img{
+               
+                width: 220px;
+            }
+        }
+        
 
 .logo-link {
    
