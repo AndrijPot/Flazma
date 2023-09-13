@@ -253,10 +253,13 @@ body {
     gap: 40px;
   }
   .logo-link img {
-    width: 220px;
+    width: 190px;
   }
-  .logo-link img {
-    width: 220px;
+  .flazma-logo {
+    border-radius: 50px;
+    width: 260px;
+    height: 80px;
+    border: 12px solid #FFBF9E;
   }
 }
 @media (max-width: 400px) {
