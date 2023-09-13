@@ -111,21 +111,28 @@
         
         
         }
-.logo-link {
-   
-    img{
-       
-        width: 190px;
-    }
-}
 
-.flazma-logo{
-        border-radius: 50px;
-        width: 260px;
-        height: 80px;
-        border: 12px solid #FFBF9E;
+    .logo-link {
+    
+        img{
+        
+            width: 190px;
+        }
     }
-}
+
+    .flazma-logo{
+            border-radius: 50px;
+            width: 260px;
+            height: 80px;
+            border: 12px solid #FFBF9E;
+        }
+
+    .logo-brands{
+        flex-direction: column;
+    }
+
+
+    }
 
 @media (max-width: 400px){
     .main{

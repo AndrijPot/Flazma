@@ -11,7 +11,7 @@ body{
 .wrapper {
     background: #F6ECE7;
     height: 100vh;
-    padding: 50px 0 ;
+    padding: 50px 20px ;
 }
 
 .main{
@@ -29,7 +29,7 @@ body{
     animation: logo-link 3s infinite;
     img{
         background: none;
-        width: 200px;
+        width: 230px;
     }
     &:hover{
         transform: scale(1.05);
@@ -38,10 +38,11 @@ body{
 
 .logo-brands{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 150px;
 }
 @keyframes logo-link{
     0%{
