@@ -1,17 +1,23 @@
 @import "nullstyle.scss";
+@import "burger.scss";
 
 body{
-   overflow: hidden;
+    background: #F6ECE7;
+    padding: 0 40px ;
+    user-select: none;
 }
 
+iframe{
+    padding: 0;
+}
 // Main
 
 
 
 .wrapper {
-    background: #F6ECE7;
+   margin: 50px 0 0 0;
     height: 100vh;
-    padding: 50px 20px ;
+  
 }
 
 .main{
@@ -56,17 +62,141 @@ body{
     }
 }
 
+.flazma_logo-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
 .flazma-logo{
     border-radius: 50px;
     width: 330px;
     height: 100px;
     border: 16px solid #FFBF9E;
-
+   
 }
 
+// Header
 
+header{
+    margin: 0 0 40px 0;
+}
 
+.nav-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 0;
+    user-select: none;
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 50px;
+        border-radius: 50px;
+        background: #FFBF9E;
+        padding: 0 30px;
+        text-align: center;
 
+        a{
+        width: 100%;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 58px;
+        letter-spacing: 5px;
+        white-space: nowrap;
+        color: #000000;
+            transition: all .3s;
+        &:hover{
+            color: #fff;
+            transform: scale(1.03);
+        }
+        }
+    }
+   
+}
+
+// Main
+.main{
+    padding: 0 30px;
+    user-select: none;
+}
+
+.main-links{
+    color: #000;
+    transition: all .3s ;
+    display: grid;
+    &:hover{
+        transform: scale(1.03);
+    }
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    
+}
+
+.main-block {
+    max-width: 320px;
+    min-height: 400px;
+    background: #FFBF9E;
+    border-radius: 30px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex: 1;
+}
+.block__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden; 
+    img{
+        max-width: 80%;
+        max-height: 100%;
+        height: auto; 
+        
+        border-radius: 50px;
+    }
+}
+
+.block__info {
+    display: flex;
+    flex-direction: column;
+ 
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    flex: 1 0 auto;
+    p{
+        margin-bottom: 20px;
+    }
+    
+}
+
+.price{
+    margin-top: auto;
+    background: #fff;
+    border-radius: 20px;
+    font-size: 35px;
+    transition: all .3s;
+    &:hover{
+        background: #f1f0f0;
+    }
+    
+   
+
+}
 
 
 
